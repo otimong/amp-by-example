@@ -272,6 +272,66 @@ nav .button > span {
   text-transform: uppercase;
 }
 
+/* sidebar menu */
+#sidebar {
+  width: 320px;
+  background-color: white;
+}
+.sidebar-close-image {
+   float:right;
+   top: 16px;
+   margin-right: 16px;
+   cursor: pointer;
+}
+.sidebar-close-image:hover {
+    background-color: #ccc;
+}
+#sidebar .item a {
+    color: #333;
+    display: block;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    padding: 10px 24px 10px 32px;
+    white-space: nowrap;
+    font-size: 13px;
+}
+#sidebar .item amp-img {
+    margin-left: 4px;
+    vertical-align: text-bottom;
+}
+#sidebar .item .selected {
+  font-weight: 700;
+  color: #ff4081;
+}
+#sidebar .expanded {
+  background-color: #eee;
+}
+#sidebar .category {
+  padding-left: 16px;
+}
+#sidebar h4 {
+  font-weight: 700;
+  font-size: 13px;
+  padding: 0;
+  border: 0;
+  background-color: white;
+  width: 100%;
+  line-height: 40px;
+}
+.topheader {
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.homelogo {
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 36px;
+  color: rgba(0,0,0,.87);
+  padding-left: 0px;
+}
+
 /* footer */
 footer {
   margin-top: 48px;
